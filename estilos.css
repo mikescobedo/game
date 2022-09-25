@@ -1,12 +1,6 @@
 @import url(https://weloveiconfonts.com/api/?family=entypo|fontawesome);
-/* entypo */
-[class*="entypo-"]:before {
-  font-family: "entypo", sans-serif;
-}
-/* fontawesome */
-[class*="fontawesome-"]:before {
-  font-family: "FontAwesome", sans-serif;
-}
+@import url(https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:wght@300&display=swap);
+
 
 /* Utils */
 
@@ -121,8 +115,12 @@ h4 {
   font-size: 18px;
   font-weight: 400;
 }
+#title{
+  font-family: 'Bungee Spice', cursive;
+  text-align: center;
+}
 #app{
-    font-family: "Lato", Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 22px;
     font-weight: bold;
     color: #35169a;
